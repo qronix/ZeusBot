@@ -1,0 +1,11 @@
+{
+  "name": "zeusbot",
+  "version": "1.0.0",
+  "description": "ZeusBot - Decider of fates, wielder of lightning.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "QronixDev",
+  "license": "ISC"
+}
