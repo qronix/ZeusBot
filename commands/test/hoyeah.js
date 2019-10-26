@@ -22,7 +22,7 @@ module.exports = class HoyeahCommand extends Command {
         voiceChannel.join()
         .then(async connection=> {
             // await new Promise(res=>setTimeout(res(), 500));
-            const dispatcher = connection.playFile('C:/test/hoyeah.mp3');
+            const dispatcher = connection.playFile('C:/test/hoyeah_loud.mp3');
             if(!dispatcher) {
                 return message.say(`Sorry, ${message.author}, I cannot give you a hooooooyeaaah!`);
             }

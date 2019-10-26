@@ -44,9 +44,9 @@ module.exports = class SmiteCommand extends Command {
             return message.say(`${message.author}, you DARE command harm unto me?!?`);
         }
         // is user exempt?
-        if(isExempt(target)) {
-            return message.say(`${target}, is unphased by the power of Zeus`);
-        }
+        // if(isExempt(target)) {
+        //     return message.say(`${target}, is unphased by the power of Zeus`);
+        // }
 
         const channelID = getUserVoiceChannelId(this.client, targetId);
         if(!channelID) {
